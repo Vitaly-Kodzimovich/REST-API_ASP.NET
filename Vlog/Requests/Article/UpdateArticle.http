@@ -1,0 +1,18 @@
+@id = 497be9c4-119e-4a61-827b-9928828c0a40
+
+PUT http://localhost:5180/articles/{{id}}
+Content-Type: application/json
+
+{
+    "name": "Test Name 2",
+    "description": "Test description. Bla Bla Bla",
+    "publishdatetime": "2024-02-02",
+    "category" : [
+        "Test Category",
+        "Bla bla category"
+    ],
+    "tags" : [
+        "Test tag",
+        "Bla bla tag"
+    ]
+}

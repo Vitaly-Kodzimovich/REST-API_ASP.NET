@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Vlog/1.0.0": {
+        "dependencies": {
+          "Vlog.Contracts": "1.0.0"
+        },
+        "runtime": {
+          "Vlog.dll": {}
+        }
+      },
+      "Vlog.Contracts/1.0.0": {
+        "runtime": {
+          "Vlog.Contracts.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Vlog/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Vlog.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

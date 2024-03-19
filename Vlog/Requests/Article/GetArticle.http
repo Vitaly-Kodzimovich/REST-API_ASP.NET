@@ -1,0 +1,3 @@
+@id = 497be9c4-119e-4a61-827b-9928828c0a40
+
+GET http://localhost:5180/articles/{{id}}

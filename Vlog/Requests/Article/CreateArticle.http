@@ -1,0 +1,16 @@
+POST http://localhost:5180/articles
+Content-Type: application/json
+
+{
+    "name": "Test Name",
+    "description": "Test description. Bla Bla Bla",
+    "publishdatetime": "2024-02-02",
+    "category" : [
+        "Test Category",
+        "Bla bla category"
+    ],
+    "tags" : [
+        "Test tag",
+        "Bla bla tag"
+    ]
+}
